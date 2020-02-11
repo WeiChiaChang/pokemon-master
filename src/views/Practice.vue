@@ -27,7 +27,6 @@ import Succeeded from '@/components/Succeeded.vue';
 import ScoreRatio from '@/components/ScoreRatio.vue';
 
 export default {
-  // Component name
   name: 'GamePractice',
 
   data () {
@@ -35,17 +34,11 @@ export default {
       test: {}
     }
   },
-
   mounted() {
-    // Set the game mode
     this.setGameMode('practice');
-    // Get a random flag
     this.getRandomFlag();
-    // Get options
     this.getRandomOptions();
   },
-
-  // Imported components
   components: {
     Flag,
     GuessingButtons,
@@ -53,16 +46,12 @@ export default {
     Failed,
     Succeeded,
   },
-
-  // Methods
   methods: {
     ...mapActions(['guessFlag', 'setGameMode', 'getRandomFlag', 'getRandomOptions']),
     failedIcon (icon) {
       this.test = icon
     }
   },
-
-  // Computed
   computed: {
     ...mapState({
       currentFlag: ({ currentFlag }) => currentFlag,
@@ -74,7 +63,6 @@ export default {
     }),
   },
 };
-
 </script>
 
 <style lang="scss" scoped>

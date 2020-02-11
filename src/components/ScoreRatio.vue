@@ -11,14 +11,10 @@
 </template>
 
 <script>
-// State utils
 import { mapState } from 'vuex';
 
 export default {
-  // Component name
   name: 'ScoreRatio',
-
-  // Computed methods & state
   computed: {
     ratio() {
       if( this.score.total > 0 ){

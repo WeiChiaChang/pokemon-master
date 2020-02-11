@@ -17,11 +17,11 @@
     </div>
     <div class="social_links">
       <!-- Sharing Button Facebook -->
-      <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fweichiachang.github.io%2Ftwicon-game%2F%23%2F" target="_blank" rel="noopener" aria-label="Facebook">
+      <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fweichiachang.github.io%2Fpokemon-master%2F%23%2F" target="_blank" rel="noopener" aria-label="Facebook">
         <i class="nes-icon facebook"></i>
       </a>
       <!-- Sharing Button Twitter -->
-      <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Taiwan%20Icon%20Font%20%E5%8F%B0%E7%81%A3%E5%9C%96%E6%A8%99%E5%AD%97%E5%9E%8B%E5%B0%8F%E9%81%8A%E6%88%B2&amp;url=https%3A%2F%2Fweichiachang.github.io%2Ftwicon-game%2F%23%2F" target="_blank" rel="noopener" aria-label="Twitter">
+      <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Pokemon%20Master%20Guessing%20Game&amp;url=https%3A%2F%2Fweichiachang.github.io%2Fpokemon-master%2F%23%2F" target="_blank" rel="noopener" aria-label="Twitter">
         <i class="nes-icon twitter"></i>
       </a>
     </div>

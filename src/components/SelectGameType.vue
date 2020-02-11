@@ -41,12 +41,14 @@ div {
   margin: 1.5rem;
 }
 .wording {
-  font-size: .9rem;
+  font-size: .8rem;
   border-radius: 5px;
   color: white !important;
   font-weight: bolder;
-  padding: 0 16px;
+  padding: 0 5px;
+  width: 130px;
   height: 56px;
-  margin-right: 16px;
+  margin-right: 12px;
+  margin-bottom: 12px;
 }
 </style>

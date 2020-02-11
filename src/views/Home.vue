@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <img src="../assets/loading.gif" alt="TW Icon Game" />
-    <h1 class="md-display-6">Pokemon Master</h1>
+    <h2 class="md-display-6">Pokemon Master</h2>
     <select-game-type />
   </div>
 </template>
@@ -24,7 +24,7 @@ export default {
 }
 img {
   display: inline-block;
-  margin-bottom: 3.2rem;
+  margin: 3.2rem 0;
   max-width: 72%;
 }
 </style>

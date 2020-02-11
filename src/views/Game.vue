@@ -32,7 +32,6 @@ import Failed from '@/components/Failed.vue';
 import Succeeded from '@/components/Succeeded.vue';
 
 export default {
-  // Component name
   name: 'GameChallenge',
 
   data () {
@@ -40,17 +39,12 @@ export default {
       test: {}
     }
   },
-
   mounted() {
-    // Set the game mode
     this.setGameMode('challenge');
-    // Get a random flag
     this.getRandomFlag();
     // Get options
     this.getRandomOptions();
   },
-
-  // Imported components
   components: {
     Flag,
     GuessingButtons,
@@ -58,16 +52,12 @@ export default {
     Failed,
     Succeeded,
   },
-
-  // Methods
   methods: {
     ...mapActions(['guessFlag', 'setGameMode', 'getRandomFlag', 'getRandomOptions']),
     failedIcon (icon) {
       this.test = icon
     }
   },
-
-  // Computed
   computed: {
     ...mapState({
       currentFlag: ({ currentFlag }) => currentFlag,
@@ -77,7 +67,7 @@ export default {
       score: ({ score }) => score,
       numberOfQuestions: ({ numberOfQuestions }) => numberOfQuestions,
     }),
-  },
+  }
 };
 
 </script>
