@@ -13,7 +13,7 @@
       >Restart</button>
     </router-link>
     <div class="failed_wrapper">
-      <span>And I'm<img class="pokemon_img" :src="test.img" alt=""><span class="keyword">{{test.name}}</span></span>
+      <span>And I'm<img class="pokemon_img" :src="require('../assets/pokemons/' + `${test.obs_code}.png`)" alt=""><span class="keyword">{{test.name}}</span></span>
     </div>
     <div class="social_links">
       <!-- Sharing Button Facebook -->

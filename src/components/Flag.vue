@@ -1,7 +1,9 @@
 <template>
   <div class="content_wrapper">
-    <!-- <i :class="code.obs_code"></i> -->
-    <img :src="code.img" alt="">
+    <img
+      :src="require('../assets/pokemons/' + `${code.obs_code}.png`)"
+      alt=""
+    >
   </div>
 </template>
 
@@ -14,6 +16,10 @@ export default {
     code: Object,
     default () {
       return {}
+    }
+  },
+  data () {
+    return {
     }
   },
   methods: {
