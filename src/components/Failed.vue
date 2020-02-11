@@ -88,7 +88,6 @@ export default {
   font-weight: bolder;
 }
 .restart_btn {
-  cursor: pointer;
   font-size: 1rem;
   text-align: center;
   height: 50px;

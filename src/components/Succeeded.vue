@@ -67,13 +67,11 @@ export default {
   // font-family: monospace;
 }
 .restart_btn {
-  cursor: pointer;
   font-size: 1.2rem;
   background: #2ab6fb !important;
   border-radius: 5px;
   color: white;
   font-weight: bolder;
-  cursor: pointer;
   padding: 16px 20px;
   text-align: center;
   height: 50px;

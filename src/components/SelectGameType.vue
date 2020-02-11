@@ -45,7 +45,6 @@ div {
   border-radius: 5px;
   color: white !important;
   font-weight: bolder;
-  cursor: pointer;
   padding: 0 16px;
   height: 56px;
   margin-right: 16px;
