@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.f195a030f847111778ea445a33d1e8d7.js"
+  "precache-manifest.67cdf95d95d2889175b1c9579e9eb2a5.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "pokemon-master"});
