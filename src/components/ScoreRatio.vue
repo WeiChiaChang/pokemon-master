@@ -47,7 +47,6 @@ export default {
 }
 .md-table-head {
   font-size: 1.5rem;
-  font-family: monospace;
 }
 .md-table-content {
   background: transparent !important;

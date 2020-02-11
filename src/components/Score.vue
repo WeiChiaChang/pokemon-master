@@ -45,8 +45,7 @@ export default {
   padding-right: 10px !important;
 }
 .md-table-head {
-  font-size: 1.5rem;
-  font-family: monospace;
+  font-size: 1rem;
 }
 .md-table-content {
   background: transparent !important;
