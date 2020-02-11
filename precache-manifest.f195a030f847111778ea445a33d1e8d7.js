@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f71eb05db64442986990",
+    "revision": "6d4fa79e21318d7cae40",
     "url": "css/app.28296f2e.css"
   },
   {
-    "revision": "f71eb05db64442986990",
-    "url": "js/app.e387675f.js"
+    "revision": "6d4fa79e21318d7cae40",
+    "url": "js/app.0c4bf636.js"
   },
   {
     "revision": "a893d67c05760191e043",
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "js/game.e3c5c80e.js"
   },
   {
-    "revision": "6e4d2d02ea94361ce893",
-    "url": "css/game~practice.e0ff3520.css"
+    "revision": "9ec8ea33d4ea749741f7",
+    "url": "css/game~practice.e4df8b28.css"
   },
   {
-    "revision": "6e4d2d02ea94361ce893",
-    "url": "js/game~practice.f84a0310.js"
+    "revision": "9ec8ea33d4ea749741f7",
+    "url": "js/game~practice.9a03f48f.js"
   },
   {
     "revision": "f8082a4c10c4ef5a45bc",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "img/loading.45600eb9.gif"
   },
   {
-    "revision": "9ac3db56c2adab6e3bb06a69e286539e",
+    "revision": "b1bd47e80aaa419b62256424530339b9",
     "url": "index.html"
   }
 ];
