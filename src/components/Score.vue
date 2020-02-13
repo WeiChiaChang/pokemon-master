@@ -22,7 +22,7 @@ export default {
       return '0.00';
     },
     ...mapState({
-      score: ({ score }) => score,
+      score: ({ score }) => score
     }),
   },
 };

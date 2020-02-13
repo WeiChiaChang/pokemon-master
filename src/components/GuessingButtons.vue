@@ -10,11 +10,13 @@
         'correct': justGuessed && correctFlag.code === flag.code,
         'wrong': justGuessed && currentGuess === flag.code && correctFlag.code !== flag.code,
       }"
-    >{{flag.name}}</md-button>
+    >{{flag[currentLanguage]}}</md-button>
   </md-content>
 </template>
 
 <script>
+import { mapState } from 'vuex';
+
 export default {
   // Component name
   name: 'GuessingButtons',
@@ -32,6 +34,11 @@ export default {
     onClick(code) {
       this.$emit('guess', code);
     },
+  },
+  computed: {
+    ...mapState({
+      currentLanguage: ({ currentLanguage }) => currentLanguage,
+    }),
   },
 };
 </script>
