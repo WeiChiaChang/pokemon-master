@@ -3,16 +3,19 @@
     <img src="../assets/loading.gif" alt="TW Icon Game" />
     <h2 class="md-display-6">Pokemon Master</h2>
     <select-game-type />
+    <select-language />
   </div>
 </template>
 
 <script>
 import SelectGameType from '@/components/SelectGameType.vue';
+import SelectLanguage from '@/components/SelectLanguage.vue';
 
 export default {
   name: 'App',
   components: {
     SelectGameType,
+    SelectLanguage
   },
 };
 </script>

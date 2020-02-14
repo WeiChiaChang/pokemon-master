@@ -6,6 +6,7 @@ import flags from './constants/flags';
 // Mutation constants
 import {
   GUESS_FLAG,
+  SET_LANGUAGE,
   SET_GAME_MODE,
   GET_RANDOM_FLAG,
   GET_GUESSING_OPTIONS,
@@ -29,6 +30,7 @@ function initialState () {
     currentOptions: [],
     justGuessed: false,
     currentGuess: '',
+    currentLanguage: 'en',
   }
 }
 
@@ -41,6 +43,10 @@ export default new Vuex.Store({
   actions: {
     setScoreInitial({ commit }) {
       commit(RESET_STATE_DATA);
+    },
+    // Set the language
+    setLanguage({ commit }, language) {
+      commit(SET_LANGUAGE, language);
     },
     // Set the game mode
     setGameMode({ commit }, mode) {
@@ -67,11 +73,13 @@ export default new Vuex.Store({
   // Mutations
   mutations: {
     [RESET_STATE_DATA](state) {
+      const tmp = state.currentLanguage;
       const s = initialState()
 
       Object.keys(s).forEach(key => {
         state[key] = s[key]
       })
+      state.currentLanguage = tmp;
     },
     [GET_RANDOM_FLAG](state) {
       const randomFlagIndex = Math.floor(Math.random() * (state.flags.length - 1));
@@ -113,6 +121,10 @@ export default new Vuex.Store({
     [SET_GAME_MODE](state, mode) {
       // Increase total
       state.currentGameMode = mode;
+    },
+    [SET_LANGUAGE](state, language) {
+      // Increase total
+      state.currentLanguage = language;
     },
   },
 });

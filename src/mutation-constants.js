@@ -6,6 +6,7 @@
 // can use to compose in differnt ways.
 
 
+export const SET_LANGUAGE = 'SET_LANGUAGE';
 export const SET_GAME_MODE = 'SET_GAME_MODE';
 export const GET_RANDOM_FLAG = 'GET_RANDOM_FLAG';
 export const GET_GUESSING_OPTIONS = 'GET_GUESSING_OPTIONS';
