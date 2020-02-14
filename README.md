@@ -5,7 +5,7 @@
 
 [Let's Play!](https://weichiachang.github.io/pokemon-master)
 
-![Pokemon Master Guessing Game](https://upload.cc/i1/2020/02/11/T6evbG.png)
+![Pokemon Master Guessing Game](https://upload.cc/i1/2020/02/14/tMVRoZ.png)
 
 ## Project setup for development
 ```
