@@ -13,7 +13,7 @@
       >Restart</button>
     </router-link>
     <div class="failed_wrapper">
-      <span>And I'm<img class="pokemon_img" :src="require('../assets/pokemons/' + `${test.obs_code}.png`)" alt=""><span class="keyword">{{test.name}}</span></span>
+      <span>And I'm<img class="pokemon_img" :src="require('../assets/pokemons/' + `${test.obs_code}.png`)" alt=""><span class="keyword">{{test[currentLanguage]}}</span></span>
     </div>
     <div class="social_links">
       <!-- Sharing Button Facebook -->
@@ -56,6 +56,7 @@ export default {
       score: ({ score }) => score,
       numberOfQuestions: ({ numberOfQuestions }) => numberOfQuestions,
       currentFlag: ({ currentFlag }) => currentFlag,
+      currentLanguage: ({ currentLanguage }) => currentLanguage,
     }),
   },
 };
@@ -64,6 +65,9 @@ export default {
 <style lang="scss" scoped>
 .failed_wrapper {
   margin-top: 20px;
+  overflow-x: scroll;
+  line-height: 32px;
+  white-space: nowrap;
 }
 .pokemon_img {
   display: inline-block;

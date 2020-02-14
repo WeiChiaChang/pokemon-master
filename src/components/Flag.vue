@@ -1,6 +1,7 @@
 <template>
   <div class="content_wrapper">
     <img
+      v-if="code.obs_code"
       :src="require('../assets/pokemons/' + `${code.obs_code}.png`)"
       alt=""
     >

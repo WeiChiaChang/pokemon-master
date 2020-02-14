@@ -24,6 +24,7 @@ npm run build
 
 ## Reference
 
+- [Pokemon list in different languages](https://pokefans.net/pokedex/pokemon-liste/internationale-namen)
 - [TW Icon Game](https://github.com/WeiChiaChang/twicon-game)
 - [PokemonDB](https://pokemondb.net/sprites)
 - [International Names](https://pokefans.net/pokedex/pokemon-liste/internationale-namen)
